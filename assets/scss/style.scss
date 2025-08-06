@@ -1,0 +1,27 @@
+@use "sass:math";
+@import "global/reset";
+@import "global/functions";
+@import "global/fonts";
+@import "global/vars";
+@import "global/components";
+@import "global/header";
+@import "global/footer";
+@import "global/home";
+
+body {
+	width: 100%;
+	font-size: 16px;
+	font-family: $mainFontFamily;
+	color: $mainTextColor;
+	position: relative;
+}
+.wrapper {
+	position: relative;
+   overflow: clip;
+   min-height: 100%;
+   display: flex;
+   flex-direction: column;
+	& > main {
+   	flex-grow: 1;
+	}
+}

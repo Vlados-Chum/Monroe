@@ -1,0 +1,41 @@
+@import url(https://fonts.googleapis.com/css?family=Nanum+Myeongjo:regular,700,800&display=swap);
+
+@font-face {
+   font-family: "Roboto";
+   src:
+      url("/assets/fonts/Roboto-Regular.woff") format("woff"),
+      url("/assets/fonts/Roboto-Regular.woff2") format("woff2");
+   font-weight: 400;
+   font-display: swap;
+   font-style: normal;
+}
+
+@font-face {
+   font-family: "Roboto";
+   src:
+      url("/assets/fonts/Roboto-Medium.woff") format("woff"),
+      url("/assets/fonts/Roboto-Medium.woff2") format("woff2");
+   font-weight: 500;
+   font-display: swap;
+   font-style: normal;
+}
+
+@font-face {
+   font-family: "Montserrat";
+   src:
+      url("../fonts/Montserrat-Regular.woff") format("woff"),
+      url("../fonts/Montserrat-Regular.woff2") format("woff2");
+   font-weight: 400;
+   font-display: swap;
+   font-style: normal;
+}
+
+@font-face {
+   font-family: "MonteCarlo";
+   src:
+      url("/assets/fonts/MonteCarlo-Regular.woff") format("woff"),
+      url("/assets/fonts/MonteCarlo-Regular.woff2") format("woff2");
+   font-weight: 400;
+   font-display: swap;
+   font-style: normal;
+}

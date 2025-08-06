@@ -1,0 +1,158 @@
+@import url(https://fonts.googleapis.com/css?family=Nanum+Myeongjo:regular,700,800&display=swap);
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+*::before,
+*::after {
+  display: inline-block;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  display: inline-block;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: inherit;
+  font-size: inherit;
+}
+
+html,
+body {
+  line-height: 1;
+  height: 100%;
+}
+
+input,
+button,
+textarea {
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  color: inherit;
+  background-color: transparent;
+}
+
+button,
+select,
+a {
+  cursor: pointer;
+}
+
+input[type=text],
+input[type=email],
+input[type=tel],
+textarea {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("/assets/fonts/Roboto-Regular.woff") format("woff"), url("/assets/fonts/Roboto-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-display: swap;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Roboto";
+  src: url("/assets/fonts/Roboto-Medium.woff") format("woff"), url("/assets/fonts/Roboto-Medium.woff2") format("woff2");
+  font-weight: 500;
+  font-display: swap;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Montserrat";
+  src: url("../fonts/Montserrat-Regular.woff") format("woff"), url("../fonts/Montserrat-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-display: swap;
+  font-style: normal;
+}
+@font-face {
+  font-family: "MonteCarlo";
+  src: url("/assets/fonts/MonteCarlo-Regular.woff") format("woff"), url("/assets/fonts/MonteCarlo-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-display: swap;
+  font-style: normal;
+}
+.title {
+  position: relative;
+  font-family: "NanumMyeongjo";
+  font-weight: 700;
+  line-height: 1.5;
+}
+@media (min-width: 77.875em) {
+  .title {
+    font-size: 1.75rem;
+  }
+}
+@media (min-width: 20em) and (max-width: 77.875em) {
+  @supports (font-size: clamp( 1.25rem , 1.0772138229rem  +  0.8639308855vw , 1.75rem )) {
+    .title {
+      font-size: clamp( 1.25rem , 1.0772138229rem  +  0.8639308855vw , 1.75rem );
+    }
+  }
+  @supports not (font-size: clamp( 1.25rem , 1.0772138229rem  +  0.8639308855vw , 1.75rem )) {
+    .title {
+      font-size: calc(1.25rem + 0.5 * (100vw - 20rem) / 57.875);
+    }
+  }
+}
+@media (max-width: 20em) {
+  .title {
+    font-size: 1.25rem;
+  }
+}
+
+.text {
+  line-height: 1.5;
+  letter-spacing: 3%;
+}
+
+body {
+  width: 100%;
+  font-size: 16px;
+  font-family: "Roboto";
+  color: rgb(20, 20, 20);
+  position: relative;
+}
+
+.wrapper {
+  position: relative;
+  overflow: clip;
+  min-height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.wrapper > main {
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+}
