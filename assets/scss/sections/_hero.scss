@@ -3,7 +3,7 @@
 .hero {
    width: 100%;
    @include adaptiveValue('padding-top', 40, 30);
-   @include adaptiveValue('padding-bottom', 120, 40);
+   @include adaptiveValue('padding-bottom', 120, 60);
 
    &__head {
       text-align: center;
@@ -22,7 +22,6 @@
       font-family: "MonteCarlo";
       @include adaptiveValue('font-size', 60, 35);
       line-height: 1.5;
-      letter-spacing: 5%;
       text-transform: capitalize;
       color: $mainTextColor;
 	}

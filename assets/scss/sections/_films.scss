@@ -1,7 +1,7 @@
 // FILMS
 
 .films {
-   @include adaptiveValue('margin-bottom', 120, 40);
+   @include adaptiveValue('margin-bottom', 120, 60);
 
 	&__container {
 	}
@@ -22,10 +22,12 @@
       flex-direction: column;
       gap: 10px;
       justify-content: flex-start;
+      @media (max-width: 992px) {
+         margin-bottom: 20px;
+      }
 	}
 
    .card-film {
-
 
 		&__image {
          // width: 384px;
@@ -33,15 +35,6 @@
 
 		&__pic {
          @extend %img;
-		}
-
-		&__year {
-		}
-
-		&__title {
-		}
-
-		&__text {
 		}
    }
 }

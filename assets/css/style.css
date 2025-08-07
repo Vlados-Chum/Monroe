@@ -492,20 +492,20 @@ textarea {
   }
 }
 @media (min-width: 20em) and (max-width: 77.875em) {
-  @supports (padding-bottom: clamp( 2.5rem , 0.7721382289rem  +  8.6393088553vw , 7.5rem )) {
+  @supports (padding-bottom: clamp( 3.75rem , 2.4541036717rem  +  6.4794816415vw , 7.5rem )) {
     .hero {
-      padding-bottom: clamp( 2.5rem , 0.7721382289rem  +  8.6393088553vw , 7.5rem );
+      padding-bottom: clamp( 3.75rem , 2.4541036717rem  +  6.4794816415vw , 7.5rem );
     }
   }
-  @supports not (padding-bottom: clamp( 2.5rem , 0.7721382289rem  +  8.6393088553vw , 7.5rem )) {
+  @supports not (padding-bottom: clamp( 3.75rem , 2.4541036717rem  +  6.4794816415vw , 7.5rem )) {
     .hero {
-      padding-bottom: calc(2.5rem + 5 * (100vw - 20rem) / 57.875);
+      padding-bottom: calc(3.75rem + 3.75 * (100vw - 20rem) / 57.875);
     }
   }
 }
 @media (max-width: 20em) {
   .hero {
-    padding-bottom: 2.5rem;
+    padding-bottom: 3.75rem;
   }
 }
 .hero__head {
@@ -543,7 +543,6 @@ textarea {
 .hero__subtitle {
   font-family: "MonteCarlo";
   line-height: 1.5;
-  letter-spacing: 5%;
   text-transform: capitalize;
   color: rgb(20, 20, 20);
 }
@@ -579,20 +578,20 @@ textarea {
   }
 }
 @media (min-width: 20em) and (max-width: 77.875em) {
-  @supports (margin-bottom: clamp( 2.5rem , 0.7721382289rem  +  8.6393088553vw , 7.5rem )) {
+  @supports (margin-bottom: clamp( 3.75rem , 2.4541036717rem  +  6.4794816415vw , 7.5rem )) {
     .about {
-      margin-bottom: clamp( 2.5rem , 0.7721382289rem  +  8.6393088553vw , 7.5rem );
+      margin-bottom: clamp( 3.75rem , 2.4541036717rem  +  6.4794816415vw , 7.5rem );
     }
   }
-  @supports not (margin-bottom: clamp( 2.5rem , 0.7721382289rem  +  8.6393088553vw , 7.5rem )) {
+  @supports not (margin-bottom: clamp( 3.75rem , 2.4541036717rem  +  6.4794816415vw , 7.5rem )) {
     .about {
-      margin-bottom: calc(2.5rem + 5 * (100vw - 20rem) / 57.875);
+      margin-bottom: calc(3.75rem + 3.75 * (100vw - 20rem) / 57.875);
     }
   }
 }
 @media (max-width: 20em) {
   .about {
-    margin-bottom: 2.5rem;
+    margin-bottom: 3.75rem;
   }
 }
 .about__block {
@@ -705,20 +704,20 @@ textarea {
   }
 }
 @media (min-width: 20em) and (max-width: 77.875em) {
-  @supports (margin-bottom: clamp( 2.5rem , 0.7721382289rem  +  8.6393088553vw , 7.5rem )) {
+  @supports (margin-bottom: clamp( 3.75rem , 2.4541036717rem  +  6.4794816415vw , 7.5rem )) {
     .gallery {
-      margin-bottom: clamp( 2.5rem , 0.7721382289rem  +  8.6393088553vw , 7.5rem );
+      margin-bottom: clamp( 3.75rem , 2.4541036717rem  +  6.4794816415vw , 7.5rem );
     }
   }
-  @supports not (margin-bottom: clamp( 2.5rem , 0.7721382289rem  +  8.6393088553vw , 7.5rem )) {
+  @supports not (margin-bottom: clamp( 3.75rem , 2.4541036717rem  +  6.4794816415vw , 7.5rem )) {
     .gallery {
-      margin-bottom: calc(2.5rem + 5 * (100vw - 20rem) / 57.875);
+      margin-bottom: calc(3.75rem + 3.75 * (100vw - 20rem) / 57.875);
     }
   }
 }
 @media (max-width: 20em) {
   .gallery {
-    margin-bottom: 2.5rem;
+    margin-bottom: 3.75rem;
   }
 }
 .gallery__block {
@@ -862,20 +861,20 @@ textarea {
   }
 }
 @media (min-width: 20em) and (max-width: 77.875em) {
-  @supports (margin-bottom: clamp( 2.5rem , 0.7721382289rem  +  8.6393088553vw , 7.5rem )) {
+  @supports (margin-bottom: clamp( 3.75rem , 2.4541036717rem  +  6.4794816415vw , 7.5rem )) {
     .biography {
-      margin-bottom: clamp( 2.5rem , 0.7721382289rem  +  8.6393088553vw , 7.5rem );
+      margin-bottom: clamp( 3.75rem , 2.4541036717rem  +  6.4794816415vw , 7.5rem );
     }
   }
-  @supports not (margin-bottom: clamp( 2.5rem , 0.7721382289rem  +  8.6393088553vw , 7.5rem )) {
+  @supports not (margin-bottom: clamp( 3.75rem , 2.4541036717rem  +  6.4794816415vw , 7.5rem )) {
     .biography {
-      margin-bottom: calc(2.5rem + 5 * (100vw - 20rem) / 57.875);
+      margin-bottom: calc(3.75rem + 3.75 * (100vw - 20rem) / 57.875);
     }
   }
 }
 @media (max-width: 20em) {
   .biography {
-    margin-bottom: 2.5rem;
+    margin-bottom: 3.75rem;
   }
 }
 .biography__block {
@@ -967,20 +966,20 @@ textarea {
   }
 }
 @media (min-width: 20em) and (max-width: 77.875em) {
-  @supports (margin-bottom: clamp( 2.5rem , 0.7721382289rem  +  8.6393088553vw , 7.5rem )) {
+  @supports (margin-bottom: clamp( 3.75rem , 2.4541036717rem  +  6.4794816415vw , 7.5rem )) {
     .content {
-      margin-bottom: clamp( 2.5rem , 0.7721382289rem  +  8.6393088553vw , 7.5rem );
+      margin-bottom: clamp( 3.75rem , 2.4541036717rem  +  6.4794816415vw , 7.5rem );
     }
   }
-  @supports not (margin-bottom: clamp( 2.5rem , 0.7721382289rem  +  8.6393088553vw , 7.5rem )) {
+  @supports not (margin-bottom: clamp( 3.75rem , 2.4541036717rem  +  6.4794816415vw , 7.5rem )) {
     .content {
-      margin-bottom: calc(2.5rem + 5 * (100vw - 20rem) / 57.875);
+      margin-bottom: calc(3.75rem + 3.75 * (100vw - 20rem) / 57.875);
     }
   }
 }
 @media (max-width: 20em) {
   .content {
-    margin-bottom: 2.5rem;
+    margin-bottom: 3.75rem;
   }
 }
 .content__container {
@@ -1097,9 +1096,9 @@ textarea {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: end;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
@@ -1146,20 +1145,20 @@ textarea {
   }
 }
 @media (min-width: 20em) and (max-width: 77.875em) {
-  @supports (width: clamp( 6.25rem , 1.4983801296rem  +  23.7580993521vw , 20rem )) {
+  @supports (width: clamp( 7.5rem , 3.1803455724rem  +  21.5982721382vw , 20rem )) {
     .content__link-right {
-      width: clamp( 6.25rem , 1.4983801296rem  +  23.7580993521vw , 20rem );
+      width: clamp( 7.5rem , 3.1803455724rem  +  21.5982721382vw , 20rem );
     }
   }
-  @supports not (width: clamp( 6.25rem , 1.4983801296rem  +  23.7580993521vw , 20rem )) {
+  @supports not (width: clamp( 7.5rem , 3.1803455724rem  +  21.5982721382vw , 20rem )) {
     .content__link-right {
-      width: calc(6.25rem + 13.75 * (100vw - 20rem) / 57.875);
+      width: calc(7.5rem + 12.5 * (100vw - 20rem) / 57.875);
     }
   }
 }
 @media (max-width: 20em) {
   .content__link-right {
-    width: 6.25rem;
+    width: 7.5rem;
   }
 }
 @media (min-width: 77.875em) {
@@ -1168,20 +1167,20 @@ textarea {
   }
 }
 @media (min-width: 20em) and (max-width: 77.875em) {
-  @supports (height: clamp( 6.25rem , 1.4983801296rem  +  23.7580993521vw , 20rem )) {
+  @supports (height: clamp( 7.5rem , 3.1803455724rem  +  21.5982721382vw , 20rem )) {
     .content__link-right {
-      height: clamp( 6.25rem , 1.4983801296rem  +  23.7580993521vw , 20rem );
+      height: clamp( 7.5rem , 3.1803455724rem  +  21.5982721382vw , 20rem );
     }
   }
-  @supports not (height: clamp( 6.25rem , 1.4983801296rem  +  23.7580993521vw , 20rem )) {
+  @supports not (height: clamp( 7.5rem , 3.1803455724rem  +  21.5982721382vw , 20rem )) {
     .content__link-right {
-      height: calc(6.25rem + 13.75 * (100vw - 20rem) / 57.875);
+      height: calc(7.5rem + 12.5 * (100vw - 20rem) / 57.875);
     }
   }
 }
 @media (max-width: 20em) {
   .content__link-right {
-    height: 6.25rem;
+    height: 7.5rem;
   }
 }
 @media (min-width: 77.875em) {
@@ -1222,20 +1221,20 @@ textarea {
   }
 }
 @media (min-width: 20em) and (max-width: 77.875em) {
-  @supports (padding-block: clamp( 2.5rem , 0.7721382289rem  +  8.6393088553vw , 7.5rem )) {
+  @supports (padding-block: clamp( 3.75rem , 2.4541036717rem  +  6.4794816415vw , 7.5rem )) {
     .timeline {
-      padding-block: clamp( 2.5rem , 0.7721382289rem  +  8.6393088553vw , 7.5rem );
+      padding-block: clamp( 3.75rem , 2.4541036717rem  +  6.4794816415vw , 7.5rem );
     }
   }
-  @supports not (padding-block: clamp( 2.5rem , 0.7721382289rem  +  8.6393088553vw , 7.5rem )) {
+  @supports not (padding-block: clamp( 3.75rem , 2.4541036717rem  +  6.4794816415vw , 7.5rem )) {
     .timeline {
-      padding-block: calc(2.5rem + 5 * (100vw - 20rem) / 57.875);
+      padding-block: calc(3.75rem + 3.75 * (100vw - 20rem) / 57.875);
     }
   }
 }
 @media (max-width: 20em) {
   .timeline {
-    padding-block: 2.5rem;
+    padding-block: 3.75rem;
   }
 }
 @media (min-width: 77.875em) {
@@ -1244,20 +1243,20 @@ textarea {
   }
 }
 @media (min-width: 20em) and (max-width: 77.875em) {
-  @supports (margin-bottom: clamp( 2.5rem , 0.7721382289rem  +  8.6393088553vw , 7.5rem )) {
+  @supports (margin-bottom: clamp( 3.75rem , 2.4541036717rem  +  6.4794816415vw , 7.5rem )) {
     .timeline {
-      margin-bottom: clamp( 2.5rem , 0.7721382289rem  +  8.6393088553vw , 7.5rem );
+      margin-bottom: clamp( 3.75rem , 2.4541036717rem  +  6.4794816415vw , 7.5rem );
     }
   }
-  @supports not (margin-bottom: clamp( 2.5rem , 0.7721382289rem  +  8.6393088553vw , 7.5rem )) {
+  @supports not (margin-bottom: clamp( 3.75rem , 2.4541036717rem  +  6.4794816415vw , 7.5rem )) {
     .timeline {
-      margin-bottom: calc(2.5rem + 5 * (100vw - 20rem) / 57.875);
+      margin-bottom: calc(3.75rem + 3.75 * (100vw - 20rem) / 57.875);
     }
   }
 }
 @media (max-width: 20em) {
   .timeline {
-    margin-bottom: 2.5rem;
+    margin-bottom: 3.75rem;
   }
 }
 .timeline__container {
@@ -1458,20 +1457,20 @@ textarea {
   }
 }
 @media (min-width: 20em) and (max-width: 77.875em) {
-  @supports (margin-bottom: clamp( 2.5rem , 0.7721382289rem  +  8.6393088553vw , 7.5rem )) {
+  @supports (margin-bottom: clamp( 3.75rem , 2.4541036717rem  +  6.4794816415vw , 7.5rem )) {
     .films {
-      margin-bottom: clamp( 2.5rem , 0.7721382289rem  +  8.6393088553vw , 7.5rem );
+      margin-bottom: clamp( 3.75rem , 2.4541036717rem  +  6.4794816415vw , 7.5rem );
     }
   }
-  @supports not (margin-bottom: clamp( 2.5rem , 0.7721382289rem  +  8.6393088553vw , 7.5rem )) {
+  @supports not (margin-bottom: clamp( 3.75rem , 2.4541036717rem  +  6.4794816415vw , 7.5rem )) {
     .films {
-      margin-bottom: calc(2.5rem + 5 * (100vw - 20rem) / 57.875);
+      margin-bottom: calc(3.75rem + 3.75 * (100vw - 20rem) / 57.875);
     }
   }
 }
 @media (max-width: 20em) {
   .films {
-    margin-bottom: 2.5rem;
+    margin-bottom: 3.75rem;
   }
 }
 .films__block {
@@ -1525,6 +1524,11 @@ textarea {
       -ms-flex-pack: start;
           justify-content: flex-start;
 }
+@media (max-width: 992px) {
+  .films__card {
+    margin-bottom: 20px;
+  }
+}
 .ads {
   background-color: rgb(164, 10, 10);
 }
@@ -1534,20 +1538,20 @@ textarea {
   }
 }
 @media (min-width: 20em) and (max-width: 77.875em) {
-  @supports (padding-block: clamp( 2.5rem , 0.7721382289rem  +  8.6393088553vw , 7.5rem )) {
+  @supports (padding-block: clamp( 3.75rem , 2.4541036717rem  +  6.4794816415vw , 7.5rem )) {
     .ads {
-      padding-block: clamp( 2.5rem , 0.7721382289rem  +  8.6393088553vw , 7.5rem );
+      padding-block: clamp( 3.75rem , 2.4541036717rem  +  6.4794816415vw , 7.5rem );
     }
   }
-  @supports not (padding-block: clamp( 2.5rem , 0.7721382289rem  +  8.6393088553vw , 7.5rem )) {
+  @supports not (padding-block: clamp( 3.75rem , 2.4541036717rem  +  6.4794816415vw , 7.5rem )) {
     .ads {
-      padding-block: calc(2.5rem + 5 * (100vw - 20rem) / 57.875);
+      padding-block: calc(3.75rem + 3.75 * (100vw - 20rem) / 57.875);
     }
   }
 }
 @media (max-width: 20em) {
   .ads {
-    padding-block: 2.5rem;
+    padding-block: 3.75rem;
   }
 }
 .ads__container {
@@ -1565,9 +1569,15 @@ textarea {
   width: 384px;
   color: rgb(255, 255, 255);
 }
+@media (max-width: 768px) {
+  .ads__block .ads__title {
+    text-align: center;
+  }
+}
 .ads__title {
   margin-bottom: 20px;
 }
+
 body {
   width: 100%;
   font-size: 16px;

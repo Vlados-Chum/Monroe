@@ -1,7 +1,7 @@
 // CONTENT
 
 .content {
-   @include adaptiveValue('margin-bottom', 120, 40);
+   @include adaptiveValue('margin-bottom', 120, 60);
 
    &__container {
       width: 100%;
@@ -58,7 +58,7 @@
       width: 100%;
       @media (max-width: 678px) {
          display: flex;
-         justify-content: center;
+         justify-content: end;
          align-items: center;
       }
 	}
@@ -67,8 +67,8 @@
       position: absolute;
       @include adaptiveValue('top', 346, 100);
       right: 0;
-      @include adaptiveValue('width', 320, 100);
-      @include adaptiveValue('height', 320, 100);
+      @include adaptiveValue('width', 320, 120);
+      @include adaptiveValue('height', 320, 120);
       border-radius: 50%;
       color: rgba(255, 255, 255, 1);
       background-color: rgba(174, 6, 11, 1);

@@ -1,7 +1,7 @@
 // ADS
 
 .ads {
-   @include adaptiveValue('padding-block', 120, 40);
+   @include adaptiveValue('padding-block', 120, 60);
    background-color: rgba(164, 10, 10, 1);
 
 	&__container {
@@ -13,12 +13,14 @@
 	&__block {
       width: 384px;
       color: rgba(255, 255, 255, 1);
+      @media (max-width: 768px) {
+         .ads__title {
+            text-align: center;
+         }
+      }
 	}
 
 	&__title {
       margin-bottom: 20px;
-	}
-
-	&__text {
 	}
 }
