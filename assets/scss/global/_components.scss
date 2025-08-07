@@ -3,8 +3,7 @@
 .title {
    position: relative;
    font-family: $titleFontFamily;
-   @include adaptiveValue('font-size', 28, 20);
-   font-weight: 700;
+   @include adaptiveValue('font-size', 28, 24);
    line-height: 1.5;
 }
 
@@ -13,6 +12,14 @@
 .text {
    line-height: 1.5;
    letter-spacing: 3%;
+   @include adaptiveValue('font-size', 16, 14);
 }
 
-
+// YEAR 
+.year {
+   font-family: "Montserrat";
+   @include adaptiveValue('font-size', 16, 14);
+   line-height: 1.5;
+   letter-spacing: 5%;
+   text-transform: uppercase;
+}

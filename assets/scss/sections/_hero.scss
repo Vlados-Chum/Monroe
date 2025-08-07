@@ -1,0 +1,38 @@
+// HERO
+
+.hero {
+   width: 100%;
+   @include adaptiveValue('padding-top', 40, 30);
+   @include adaptiveValue('padding-bottom', 120, 40);
+
+   &__head {
+      text-align: center;
+      margin-bottom: 20px;
+	}
+
+   &__title {
+      font-family: "NanumMyeongjo";
+      @include adaptiveValue('font-size', 100, 60);
+      line-height: 1.5;
+      text-transform: uppercase;
+      color: rgba(174, 6, 11, 1);
+	}
+
+   &__subtitle {
+      font-family: "MonteCarlo";
+      @include adaptiveValue('font-size', 60, 35);
+      line-height: 1.5;
+      letter-spacing: 5%;
+      text-transform: capitalize;
+      color: $mainTextColor;
+	}
+
+   &__bg-img {
+      width: 100%;
+      overflow: hidden;
+	}
+
+   &__pic {
+      @extend %img;
+	}
+}

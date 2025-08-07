@@ -25,3 +25,9 @@ body {
    	flex-grow: 1;
 	}
 }
+
+[class$="__container"] {
+	max-width: 1216px;
+	padding-inline: 15px;
+	margin-inline: auto;
+}

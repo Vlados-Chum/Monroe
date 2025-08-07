@@ -1,0 +1,68 @@
+// HEADER
+
+.header {
+   background-color: rgba(174, 6, 11, 1);
+   padding-block: 10px;
+
+		&__container {
+         display: flex;
+         justify-content: space-between;
+         align-items: center;
+         flex-wrap: wrap;
+         column-gap: 20px;
+         @media (max-width: 533px) {
+            justify-content: center;
+            row-gap: 10px;
+         }
+		}
+
+		&__logo {
+         width: 229px;
+         overflow: hidden;
+		}
+
+		&__img-logo {
+         @extend %img;
+		}
+
+		&__contacts {
+         display: flex;
+         justify-content: space-between;
+         gap: 17px;
+         align-items: center;
+        
+		}
+
+		&__phone-contacts {
+         font-weight: 500;
+         line-height: 1.5;
+         letter-spacing: 5%;
+         color: rgba(255, 255, 255, 1);
+         @include adaptiveValue('font-size', 16, 14);
+		}
+
+		&__icon-contacts {
+         width: 40px;
+         height: 40px;
+         overflow: hidden;
+         border-radius: 50%;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         &--behance {
+            background-color: rgba(65, 118, 250, 1);
+         }
+         &--telegram {
+            background-color: rgba(3, 155, 229, 1);
+         }
+		}
+
+		&__behance-icon {
+         aspect-ratio: 24 / 15;
+      }
+
+
+      &__telegram-icon {
+         aspect-ratio: 22 / 18;
+		}
+}

@@ -1,0 +1,40 @@
+// ABOUT
+
+.about {
+   @include adaptiveValue('margin-bottom', 120, 40);
+
+   &__block {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      @include adaptiveValue('gap', 30, 15);
+      @media (max-width: 992px) {
+         grid-template-columns: 1fr;
+      }
+	}
+
+   &__box-title {
+	}
+
+   &__box-text {
+      @media (max-width: 992px) {
+         display: flex;
+         flex-direction: column;
+         @include adaptiveValue('gap', 20, 10);
+         align-items: center;
+      }
+	}
+
+   &__text {
+      width: 80%;
+   }
+
+   &__text:not(:last-child) {
+      @include adaptiveValue('margin-bottom', 20, 10);
+   }
+
+   &__box-year {
+      display: flex;
+      align-items: flex-start;
+      justify-content: flex-end;
+	}
+}
