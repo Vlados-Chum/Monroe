@@ -5,13 +5,14 @@
    font-family: $titleFontFamily;
    @include adaptiveValue('font-size', 28, 24);
    line-height: 1.5;
+   text-transform: uppercase;
+   font-weight: 400;
 }
 
 // TEXT
 
 .text {
    line-height: 1.5;
-   letter-spacing: 3%;
    @include adaptiveValue('font-size', 16, 14);
 }
 
@@ -20,6 +21,5 @@
    font-family: "Montserrat";
    @include adaptiveValue('font-size', 16, 14);
    line-height: 1.5;
-   letter-spacing: 5%;
    text-transform: uppercase;
 }

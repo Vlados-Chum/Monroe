@@ -1,0 +1,27 @@
+// BIOGRAPHY 
+
+.biography {
+   @include adaptiveValue('margin-bottom', 120, 40);
+
+   &__block {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      @include adaptiveValue('gap', 32, 15);
+      @media (max-width: 678px) {
+         grid-template-columns: 1fr;
+      }
+	}
+
+   &__item-block {
+      @include adaptiveValue('padding', 20, 10);
+      border: 0.5px solid $mainTextColor;
+      &:hover {
+         color: rgba(255, 255, 255, 1);
+         background-color: $mainTextColor;
+      }
+	}
+
+   &__title-block {
+      @include adaptiveValue('margin-bottom', 20, 10);
+	}
+}
