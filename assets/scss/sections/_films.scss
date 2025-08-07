@@ -3,9 +3,6 @@
 .films {
    @include adaptiveValue('margin-bottom', 120, 60);
 
-	&__container {
-	}
-
 	&__block {
       display: flex;
       @include adaptiveValue('gap', 32, 20);
@@ -28,10 +25,6 @@
 	}
 
    .card-film {
-
-		&__image {
-         // width: 384px;
-		}
 
 		&__pic {
          @extend %img;
