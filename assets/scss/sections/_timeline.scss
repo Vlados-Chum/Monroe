@@ -1,8 +1,7 @@
 // TIMELINE
 
 .timeline {
-   @include adaptiveValue('padding-block', 120, 60);
-   @include adaptiveValue('margin-bottom', 120, 60);
+   @include adaptiveValue('padding-block', 120, 70);
    border-top: 0.5px solid rgba(150, 150, 150, 1);
    border-bottom: 0.5px solid rgba(150, 150, 150, 1);
 

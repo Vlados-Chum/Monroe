@@ -1,7 +1,6 @@
 // CONTENT
 
 .content {
-   @include adaptiveValue('margin-bottom', 120, 60);
 
    &__container {
       width: 100%;

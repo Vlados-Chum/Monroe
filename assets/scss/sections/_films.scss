@@ -1,7 +1,6 @@
 // FILMS
 
 .films {
-   @include adaptiveValue('margin-bottom', 120, 60);
 
 	&__block {
       display: flex;

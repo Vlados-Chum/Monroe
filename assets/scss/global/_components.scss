@@ -23,3 +23,9 @@
    line-height: 1.5;
    text-transform: uppercase;
 }
+
+// SECTION
+
+section:not(:last-child) {
+   @include adaptiveValue('margin-bottom', 120, 70);
+}

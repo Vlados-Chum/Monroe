@@ -1,12 +1,11 @@
 // GALLERY
 
 .gallery {
-   @include adaptiveValue('margin-bottom', 120, 60);
 
    &__block {
       display: grid;
       grid-template-columns: repeat(3, 1fr);
-      @include adaptiveValue('gap', 32, 15);
+      @include adaptiveValue('gap', 32, 20);
       @media (max-width: 900px) {
          grid-template-columns: 1fr;
       }

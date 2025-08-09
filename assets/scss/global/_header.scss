@@ -2,7 +2,10 @@
 
 .header {
    background-color: rgba(174, 6, 11, 1);
-   padding-block: 10px;
+   @include adaptiveValue('padding-block', 10, 30);
+   // @media (max-width: 768px) {
+   //    padding-block: 30px;
+   // }
 
 		&__container {
          display: flex;

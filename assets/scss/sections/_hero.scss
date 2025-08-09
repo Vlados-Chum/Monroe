@@ -3,7 +3,6 @@
 .hero {
    width: 100%;
    @include adaptiveValue('padding-top', 40, 30);
-   @include adaptiveValue('padding-bottom', 120, 60);
 
    &__head {
       text-align: center;
@@ -16,6 +15,9 @@
       line-height: 1.5;
       text-transform: uppercase;
       color: rgba(174, 6, 11, 1);
+      @media (max-width: 768px) {
+         line-height: 1.2;
+      }
 	}
 
    &__subtitle {

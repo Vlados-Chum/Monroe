@@ -1,7 +1,6 @@
 // BIOGRAPHY 
 
 .biography {
-   @include adaptiveValue('margin-bottom', 120, 60);
 
    &__block {
       display: grid;
