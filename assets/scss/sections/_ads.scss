@@ -2,19 +2,20 @@
 
 .ads {
    background-color: rgba(164, 10, 10, 1);
+	@include adaptiveValue('padding-block', 100, 60);
 
 	&__container {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-	}
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	}	
 
 	&__block {
-      width: 384px;
-      color: rgba(255, 255, 255, 1);
-	}
+	width: 384px;
+	color: rgba(255, 255, 255, 1);
+	}	
 
 	&__title {
-      margin-bottom: 20px;
+	margin-bottom: 20px;
 	}
 }

@@ -1426,6 +1426,28 @@ textarea {
 .ads {
   background-color: rgb(164, 10, 10);
 }
+@media (min-width: 77.875em) {
+  .ads {
+    padding-block: 6.25rem;
+  }
+}
+@media (min-width: 20em) and (max-width: 77.875em) {
+  @supports (padding-block: clamp( 3.75rem , 2.8860691145rem  +  4.3196544276vw , 6.25rem )) {
+    .ads {
+      padding-block: clamp( 3.75rem , 2.8860691145rem  +  4.3196544276vw , 6.25rem );
+    }
+  }
+  @supports not (padding-block: clamp( 3.75rem , 2.8860691145rem  +  4.3196544276vw , 6.25rem )) {
+    .ads {
+      padding-block: calc(3.75rem + 2.5 * (100vw - 20rem) / 57.875);
+    }
+  }
+}
+@media (max-width: 20em) {
+  .ads {
+    padding-block: 3.75rem;
+  }
+}
 .ads__container {
   display: -webkit-box;
   display: -ms-flexbox;
